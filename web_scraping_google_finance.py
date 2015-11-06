@@ -82,4 +82,4 @@ loser = company[loser_ind]
 ### ANNOUNCEMENT
 print('The sector that has moved the most is ' + top_sect + ' (' + str(max(rate)) + '%). ' 
       + winner + ' gained the most (' + str(max(change)) + '%) while ' 
-      + loser + ', the biggest loser, lost ' + str(min(change)) + '%.')
+      + loser + ', the biggest loser, lost ' + str(min(change))[1:] + '%.')
